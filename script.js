@@ -1,8 +1,8 @@
 //Random Quotes Api URL
-const quoteApiUrl = "Those who know do not speak; those who speak do not know";
+const quoteApiUrl = "";
 const quoteSection = document.getElementById("quote");
 const userInput = document.getElementById("quote-input");
-let quote = "";https://api.quotable.io/random?minLength=80&maxLength=100
+let quote = "";//https:api.quotable.io/random?minLength=80&maxLength=100
 let time = 60;
 let timer = "";
 let mistakes = 0;
